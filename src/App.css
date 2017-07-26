@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #1abc9c;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.btn-btn {
+  width: 200px;
+  height: 50px;
+  background-color: #ecf0f1;
+  color: #1abc9c;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold
+}
+
+.btn-btn:hover {
+  background-color: #1abc9c;
+  transition: all 1s;
+  border: 1px solid #ecf0f1;
+  color: white;
+}
+
+.head-text {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+.head-text:hover {
+    width: 300px;
+}
+
+.inputField {
+  width: 40%;
+  height: 40px;
+  margin: 10px;
+  outline: none;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+
+.whitecolor {
+  color: white;
+}
+
+.input {
+  color: white;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  background: transparent;
+  transition: width 0.4s ease-in-out;
+}
+
+.input:focus {
+    width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2
+    }
+
+tr:nth-child(odd){
+    background-color: white;
+    }
+
+th {
+    background-color: #16a085;
+    color: white;
+    margin-top: 20px;
+}
+
+.textarea {
+ background: url(http://i.stack.imgur.com/ynxjD.png) repeat-y;
+ width: 600px;
+ height: 300px;
+ font: normal 14px verdana;
+ line-height: 25px;
+ padding: 2px 10px;
+ border: solid 1px #ddd;
+}
+
+.btn-hide { 
+  display: none;
+}
+
+
+.header {
+  background-color: skyblue;
+  height: 40px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn-header{
+  width: 110px;
+  padding: 10px 0px 10px 0px;
+  margin: 2px 0px 0px 8px;
+  background-color: seagreen;
+  border: none;
+  border-radius: 7px;
+}
+
+.btn-header:hover{
+  transition: all 1s;
+  background-color: transparent;
+  border: 1px solid grey;
+}
